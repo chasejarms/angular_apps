@@ -1,10 +1,10 @@
-import { RemoveThisAppPage } from './app.po';
+import { AngularAppPage } from './app.po';
 
-describe('remove-this-app App', () => {
-  let page: RemoveThisAppPage;
+describe('angular-app App', () => {
+  let page: AngularAppPage;
 
   beforeEach(() => {
-    page = new RemoveThisAppPage();
+    page = new AngularAppPage();
   });
 
   it('should display message saying app works', () => {
