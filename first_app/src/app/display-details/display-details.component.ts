@@ -7,14 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplayDetailsComponent implements OnInit {
   showSecretParagraph: boolean = false;
-  clicks: Array<number> = [];
+  clicks: Array<any> = [];
   constructor() {}
 
   ngOnInit() {
   }
   toggleParagraphVisibility() {
     this.showSecretParagraph = !this.showSecretParagraph;
-    this.clicks.push(this.clicks.length + 1);
-    console.log(this.clicks);
+    this.clicks.push(new Date());
   }
 }
