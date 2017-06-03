@@ -13,7 +13,7 @@ export class AuthFakeService {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(this.loggedIn);
-      }, 2000);
+      }, 300);
     })
   }
 }
